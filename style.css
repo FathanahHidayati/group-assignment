@@ -1,0 +1,194 @@
+body{
+margin:0;
+padding:0;
+font-family:sans-serif;
+background: burlywood;
+webkit-background-size:cover;
+background-size:auto;
+background-position:center center;
+background-repeat:no-repeat;
+height:100vh;
+}
+a{
+font-size:14px;
+text-transform:uppercase;
+}
+.nav-area{
+background:#4A2B00;
+}
+.nav-area:after{
+content:'';
+clear:both;
+display:block;
+}
+.nav-area ul{
+list-style:none;
+margin:0;
+}
+.nav-area > ul > li{
+float:left;
+position:relative;
+}
+.nav-area ul li a{
+text-decoration:none;
+color:#fff;
+padding:15px 20px;
+display:block;
+}
+.nav-area ul li:hover a{
+background:#34495a;
+}
+.nav-area ul ul{
+position:absolute;
+padding:0;
+min-width:160px;
+display:none;
+top:100%;
+left:0;
+}
+.nav-area ul li:hover > ul{
+display:block;
+}
+.nav-area ul ul li:hover a{
+background:#262626;
+}
+.nav-area ul ul li{
+position:relative;
+}
+.nav-area ul ul ul{
+top:0;
+left:100%;
+}
+.dropdown{
+position:absolute;
+top:100;
+left:0;
+width:100%;
+padding:0;
+}
+.content_box {
+ clear: both;
+ padding: 30px;
+ margin-bottom: 30px; 
+ 
+}
+
+.col_w340 { width: 600px }
+.col_w340w { width: 90%}
+
+.float_l { float: left }
+.float_r { float: right }
+.float_c { float: center }
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+.h60 { height: 60px }
+
+.image_wrapper { 
+ display: inline-block;  
+ padding: 6px; 
+ background: #131e2e; 
+  }
+  
+.tooplate_list { 
+ margin: 20px 0 20px 10px; 
+ padding: 0; 
+ list-style: none; 
+}
+
+.tooplate_list li { 
+ color:#bac4d3; 
+ margin: 0; 
+ padding: 0 0 5px 20px; 
+ background: url(../images/tooplate_list.jpg) no-repeat scroll 0 5px;  
+}
+
+.tooplate_list li a { 
+ color: #bac4d3; 
+ font-weight: normal; 
+ font-size: 12px; 
+ text-decoration: none; 
+}
+
+.tooplate_list li a:hover { 
+ color: #bac4d3; 
+ text-decoration: underline; 
+}
+
+a.gototop { 
+ display: block; 
+ clear: both; 
+ float: right; 
+ width: 105px; 
+ height: 30px; 
+ background: url(../images/tooplate_gototop.png)  no-repeat; 
+ outline: none; 
+}
+
+a.gototop:hover { 
+ background: url(../images/tooplate_gototop_hover.png); 
+}
+}
+.image{
+text-align: center;
+}
+.box{
+width: 450px;
+background:  sienna;
+padding: 40px;
+text-align: center;
+margin: auto;
+margin-top: 5%;
+color: white;
+font-family: sans-serif;
+}
+.box-img{
+border-radius: 50%;
+width: 200px;
+height: 200px;
+}
+.box h1{
+font-size: 40px;
+letter-spacing: 4px;
+font-weight: 100;
+}
+.box h5{
+font-size: 20px;
+letter-spacing: 3px;
+font-weight: 100;
+}
+.box p{
+text-align: justify;
+}
+ul{
+margin: 0;
+padding: 0;
+}
+.box li{
+display: inline-block;
+margin: 6px;
+list-style: none;
+}
+.box li a{
+color: white;
+text-decoration: none;
+font-size: 60px;
+transition all ease-in-out 250ms;
+}
+.box li a:hover{
+color: #b9b9b9;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color:black;
+  color: white;
+  text-align: center;
+}
